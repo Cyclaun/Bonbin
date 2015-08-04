@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	 <meta charset="UTF-8">
+<title>Kebun Binatang Gembira Loka</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="themes/Zoo.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+	<link rel="stylesheet" href="custom.css" />
+
+</head> 
+<body> 
+<div id="choisir_ville" data-role="page" data-add-back-btn="true">
+	
+	<div data-role="header"> 
+        <a href="Herbivora.html"data-ajax="false" data-transition="pop"data-icon="back">back</a>
+
+		<h1> Kebun Binatang Gembira Loka</h1>
+	</div> 
+
+	<div data-role="content">
+	
+	<div data-role="content">
+	<div class="ui-grid-a" id="restau_infos">	
+		<div class="ui-block-a">
+		<h1> Badak </h1>
+		<p><strong> Jumlah Populasi : </strong></p><div data-role="content">
+                <form action="echo.cfm" method="post">
+                    <div data-role="fieldcontain">
+                        <label for="jumlah">Populasi:</label><br><br>
+                        <input type="text" name="jumlah" id="jumlah" value="" />
+                    </div>
+                    <div data-role="fieldcontain">
+                        <input type="submit" name="submit" value="Tambah" />
+                    </div>
+                </form>
+            </div>
+		<p> Makanan : </p>
+			<ul> 
+				<li> Areuy Kacepot </li>
+				<li> Bunga Leuksa </li>
+				<li> Bungburutu </li>
+                <li> Canar </li>
+                <li> Kacembang </li>
+                <li> Dll </li>
+			</ul>			
+		</div>		
+		<div class="ui-block-b">
+		<p><img src="Badak.jpg" alt="rakun"/></p>
+		<p><a href="http://www.gembiralokazoo.com/" rel="external" data-role="button"> Lihat Website <br> Kebun Binatang <br>Gembira Loka</a></p>
+		</div>
+	</div><!-- /grid-a -->
+	<hr/>
+	
+	<div class="ui-grid-a" id="contact_infos">	
+		
+		<h2 align="center"> Hubungi Kami</h2>
+		<p align="center">Gembira loka zoo </p>
+		<p align="center"> Jl. Kebun Raya no 2 Yogyakarta 55171 Indonesia</p>
+            <p align="center"> Fax 384666 </p>
+            <p align="center"> info@gembiralokazoo.com </p>
+		
+	</div><!-- /grid-a -->
+	<div id="contact_buttons">	
+		<a href="tel: 0274-373861"  data-role="button" data-icon="tel"> Call us </a>	
+	</div>	
+	<hr/>
+	
+	
+
+	</div>	
+	</div>
+
+</div><!-- /page -->
+</body>
+</html>
